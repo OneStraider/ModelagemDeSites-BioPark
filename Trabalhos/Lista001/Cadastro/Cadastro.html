@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Cadastro.css">    
+    <link rel="shortcut icon" href="Img/cadast.png">
+</head>
+<body>
+
+    <div class="register-box">
+        <h1>Cadastrar conta</h1>
+        <form action="register.php" method="post">
+            <input type="text" name="principal" id="user-name" placeholder="Nome do Usuário"><br>
+            <input type="email" name="principal" id="user-email" placeholder="Email"><br>
+            <input type="password" name="principal" id="user-password" placeholder="Senha"><br>
+            <input type="text" name="principal" placeholder="Confirmar senha"><br>
+            <input type="text" name="principal" id="user-number" placeholder="Número de telefone (Opicional)"><br>
+            <label for="DataDeNascimento" name="data-de-nascimento"><b>Data de Nascimento</b></label><br>
+            <input type="date" name="data-de-nascimento" id="user-age"><br>
+            <h2>Sexo</h2>
+            <input type="radio" name="sexo" id="masculino"><b name="sexo">Masculino</b><br> 
+            <input type="radio" name="sexo" id="feminino"><b name="sexo">Feminino</b><br> 
+            <input type="radio" name="sexo" id="indefinido"><b name="sexo">Prefiro não informar</b><br> 
+            <h2 name="localizacao">Localização</h2>
+            <input type="text" name="localizacao" placeholder="Estado" id="estado"><br>
+            <input type="text" name="localizacao" placeholder="CEP" id="CEP">
+            <input type="submit" name="concluir" value="Concluir" id="concluir">
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #365753
+}
+.register-box{
+    width: 300px;
+    margin: 40px auto;
+    padding: 50px;
+    border: 4px solid #2e3f3b;
+    border-radius: 5px;
+    background-color: #798E89;
+    height: 721px;
+}
+.register-box h1{
+    text-align: center;
+    margin-bottom: -17px;
+    font-size: 45px;
+    position: relative;
+    top: -50px
+}
+.register-box input[name=principal]{
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 7px;
+    border: 2px solid #2e3f3b;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: italic;
+    background-color: #c2d4d0
+}
+.register-box label[name=data-de-nascimento]{
+    font-size: 20px;
+}
+.register-box input[name=data-de-nascimento]{
+    width: 40%;
+    padding: 6px;
+    margin-bottom: 7px;
+    border: 2px solid #2e3f3b;
+    position: relative;
+    top: 4px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    background-color: #c2d4d0
+}
+.register-box input[name=sexo],
+.register-box b[name=sexo]{
+    position: relative;
+    top: -15px;
+}
+.register-box input[name=localizacao]{
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 7px;
+    border: 2px solid #2e3f3b;
+    position: relative;
+    top: -24px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: italic;
+    background-color: #c2d4d0
+}
+.register-box input[name=concluir]{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 9px;
+    background-color: #2a4e46;
+    color: white;
+    cursor: grab;
+    border-color: black;
+    position: relative;
+    top: -6px;
+}
+.register-box h2[name=localizacao]{
+    position: relative;
+    top: -15px;
+}
